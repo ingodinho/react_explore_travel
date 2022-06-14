@@ -1,0 +1,48 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0;
+    font-size: 1.8rem;
+    font-family: var(--sec-font)
+}
+
+.navigation__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav__link {
+    color: #E5E5E5;
+    text-decoration: none;
+    
+    &:hover{
+        color: inherit;
+    }
+}
+
+.nav__link__active {
+    color: inherit;
+}
+
+.btns {
+    display: flex;
+    gap: 20px;
+}
+
+.btn__register:hover {
+
+}
+
+.btn__login {
+    background-color: #fff;
+    color: var(--color-acc);
+}

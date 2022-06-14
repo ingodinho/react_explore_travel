@@ -1,0 +1,22 @@
+.about {
+    padding: 30vh 0;
+    margin: 0 5%;
+    background: url(../images/Thousand-03.svg) right center / 50% no-repeat;
+}
+
+.about__article {
+    padding: 10rem 60% 10rem 5%;
+
+    h3 {
+        font-size: 3.6rem;
+        font-family: var(--prm-font);
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+        color: var(--color-grey);
+        margin-bottom: 3rem;
+        line-height: 1.6;
+    }
+}
